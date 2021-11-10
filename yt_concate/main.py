@@ -22,7 +22,7 @@ def main():
         Postflight(),
         ]
 
-    utils = Utils
+    utils = Utils()
     p = Pipeline(steps)
     p.run(inputs, utils)
 
